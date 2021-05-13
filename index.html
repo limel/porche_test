@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./img/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./img/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="/./img/faviconapple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./img/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./img/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./img/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./img/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./img/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./img/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./img/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./img/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./img/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./img/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./img/favicon/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="./img/favicon/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<title>Слайдер</title>
+	</head>
+	<body></body>
+</html>
+
+<header class="header">
+	<div class="container">
+		<a href="#" class="header-logo">
+			<picture>
+				<source srcset="./img/logo_mobile.png" media="(max-width: 1200px)" />
+				<source srcset="./img/logo.png" />
+				<img srcset="./img/logo.png" alt="img" />
+			</picture>
+		</a>
+		<div class="header-actions">
+			<div class="header-search">
+				<div class="header-search__icon">
+					<svg><use href="./img/sprite.svg#search"></use></svg>
+				</div>
+				<form method="GET" class="header-search-form">
+					<div class="header-search-form__input">
+						<input type="text" />
+					</div>
+					<button type="submit" class="header-search-form__btn">
+						<svg><use href="./img/sprite.svg#search"></use></svg>
+					</button>
+				</form>
+			</div>
+			<div class="header-menu">
+				<div class="header-menu__btn">
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="header-menu__list">
+					<li><a href="#">home</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">catalog</a></li>
+					<li><a href="#">contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="header-backdrop"></div>
+</header>
+
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 hero lazy" data-bg="./img/background-img.jpg">
+				<a href="#" class="btn-scroll-down">
+					<svg><use href="./img/sprite.svg#down-arrow"></use></svg>
+				</a>
+			</div>
+			<div class="col-6 col_no-padding">
+				<div class="description">
+					<div class="description__caption">
+						PORSCHE <span class="orange">SINGER</span>
+					</div>
+					<h1 class="description__title">
+						964 <span class="bold">Dynamic & Lightweight</span> Study
+					</h1>
+					<div class="description__text">
+						<p>
+							The Singer - <span>Williams DLS Goodwood</span> is the ultimate
+							carbon fiber vision of a 1990 Porsche 964 made by restorers at
+							<span>Singer Vehicle Design</span> , partnering with the racing
+							firm <span> Williams Advanced Engineering.</span>
+						</p>
+						<!--  -->
+						<p>
+							The Singer - <span>Williams DLS Goodwood</span> is the ultimate
+							carbon fiber vision of a 1990 Porsche 964 made by restorers at
+							<span>Singer Vehicle Design</span> , partnering with the racing
+							firm <span> Williams Advanced Engineering.</span>
+						</p>
+					</div>
+				</div>
+				<div class="carousel-nav">
+					<button class="carousel-nav__btn next">
+						<svg><use href="./img/sprite.svg#arrow"></use></svg>
+					</button>
+					<button class="carousel-nav__btn prev">
+						<svg><use href="./img/sprite.svg#arrow"></use></svg>
+					</button>
+				</div>
+				<div class="carousel">
+					<div class="owl-carousel">
+						<div class="carosuel-item">
+							<img src="./img/carousel-item-1.jpg" alt="car" />
+						</div>
+						<div class="carosuel-item">
+							<img src="./img/carousel-item-2.jpg" alt="car" />
+						</div>
+						<div class="carosuel-item">
+							<img src="./img/carousel-item-3.jpg" alt="car" />
+						</div>
+						<!--  -->
+						<div class="carosuel-item">
+							<img src="./img/carousel-item-3.jpg" alt="car" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- footer -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/readmore.min.js"></script>
+<script src="./js/app.min.js"></script>
+</body>
+</html>
+
+
